@@ -1,0 +1,4 @@
+ - LessonContainerWidget als Klasse machen damit man auch noch Farbeinstellungen vornehmen kann..
+ - pop up screen um LessonContainer zu bearbeiten ändern um bug zu entfernen (dass wenn man aus Textbox rausgeht text verschwindet)
+ - 
+
