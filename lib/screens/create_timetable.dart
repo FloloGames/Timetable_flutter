@@ -80,8 +80,12 @@ class _CreateTimetableScreenState extends State<CreateTimetableScreen> {
             builder: (BuildContext context) {
               final TextEditingController nameController =
                   TextEditingController();
+
               final TextEditingController teacherController =
                   TextEditingController();
+
+              nameController.text = lessonContainer.getName();
+              teacherController.text = lessonContainer.getTeacher();
 
               double widthScaler = 0.5;
               double heightScaler = 0.5;
