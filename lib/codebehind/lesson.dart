@@ -1,4 +1,7 @@
+import 'package:flutter/material.dart';
+
 class LessonContainer {
+  final Color _color = const Color.fromRGBO(0, 0, 0, 0);
   late String _name;
   late String _teacher;
 
